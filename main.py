@@ -1,6 +1,5 @@
 def main():
     string = input()
-    col = 3
     row = 10
     p = { i: [] for i in range(row)}
     for i, w in enumerate(string):
